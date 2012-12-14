@@ -1,6 +1,6 @@
 <package>
   <name>depthimage_to_laserscan</name>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <description>depthimage_to_laserscan</description>
   <maintainer email="chadrockey@willowgarage.com">Chad Rockey</maintainer>
 
@@ -11,6 +11,8 @@
   <url type="repository">https://github.com/ros-perception/depthimage_to_laserscan</url>
 
   <author>Chad Rockey</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
 
   <build_depend>roscpp</build_depend>
   <build_depend>gtest</build_depend>
