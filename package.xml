@@ -1,6 +1,6 @@
 <package>
   <name>depthimage_to_laserscan</name>
-  <version>1.0.3</version>
+  <version>1.0.4</version>
   <description>depthimage_to_laserscan</description>
   <maintainer email="chadrockey@willowgarage.com">Chad Rockey</maintainer>
 
@@ -27,11 +27,6 @@
   <run_depend>image_transport</run_depend>
   <run_depend>image_geometry</run_depend>
   <run_depend>dynamic_reconfigure</run_depend>
-  <test_depend>sensor_msgs</test_depend>
-  <test_depend>nodelet</test_depend>
-  <test_depend>image_transport</test_depend>
-  <test_depend>image_geometry</test_depend>
-  <test_depend>dynamic_reconfigure</test_depend>
 
   <export>
     <nodelet plugin="${prefix}/nodelets.xml"/>
