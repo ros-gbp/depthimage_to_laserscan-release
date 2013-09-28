@@ -1,0 +1,12 @@
+Source: ros-groovy-depthimage-to-laserscan
+Section: misc
+Priority: extra
+Maintainer: Chad Rockey <chadrockey@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), libgtest-dev, ros-groovy-catkin, ros-groovy-dynamic-reconfigure, ros-groovy-image-geometry, ros-groovy-image-transport, ros-groovy-nodelet, ros-groovy-roscpp, ros-groovy-sensor-msgs
+Homepage: http://ros.org/wiki/depthimage_to_laserscan
+Standards-Version: 3.9.2
+
+Package: ros-groovy-depthimage-to-laserscan
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-dynamic-reconfigure, ros-groovy-image-geometry, ros-groovy-image-transport, ros-groovy-nodelet, ros-groovy-roscpp, ros-groovy-sensor-msgs
+Description: depthimage_to_laserscan
