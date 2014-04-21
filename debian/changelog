@@ -1,0 +1,59 @@
+ros-indigo-depthimage-to-laserscan (1.0.6-0trusty) trusty; urgency=high
+
+  * Removed y component from projected beam radius.
+
+ -- Chad Rockey <chadrockey@gmail.com>  Thu, 31 Oct 2013 07:00:00 -0000
+
+ros-indigo-depthimage-to-laserscan (1.0.5-0trusty) trusty; urgency=high
+
+  * No more Willow Garage email.
+  * Merge pull request #4 <https://github.com/ros-perception/depthimage_to_laserscan/issues/4> from ericperko/groovy-devel
+    Cleaned up CMakeLists a bit
+  * Cleaned up CMakeLists a bit
+
+ -- Chad Rockey <chadrockey@gmail.com>  Wed, 21 Aug 2013 07:00:00 -0000
+
+ros-indigo-depthimage-to-laserscan (1.0.4-0trusty) trusty; urgency=high
+
+  * Update version to 1.0.4
+  * Merge pull request #3 <https://github.com/ros-perception/depthimage_to_laserscan/issues/3> from ahendrix/fix_testdeps
+    Fix testdeps
+  * Removed redundant test-depends.
+  * Remove old makefile.
+
+ -- Chad Rockey <chadrockey@gmail.com>  Tue, 22 Jan 2013 08:00:00 -0000
+
+ros-indigo-depthimage-to-laserscan (1.0.3-0trusty) trusty; urgency=high
+
+  * fix exported libraries (fix #2 <https://github.com/ros-perception/depthimage_to_laserscan/issues/2>)
+
+ -- Chad Rockey <chadrockey@gmail.com>  Sun, 23 Dec 2012 08:00:00 -0000
+
+ros-indigo-depthimage-to-laserscan (1.0.2-0trusty) trusty; urgency=high
+
+  * fix dyn reconf
+  * Updated description.
+  * Updated readme to link to wiki.
+
+ -- Chad Rockey <chadrockey@gmail.com>  Wed, 19 Dec 2012 08:00:00 -0000
+
+ros-indigo-depthimage-to-laserscan (1.0.1-0trusty) trusty; urgency=high
+
+  * Update package.xml
+    New release for missing catkin build_depend.
+  * Merge pull request #1 <https://github.com/ros-perception/depthimage_to_laserscan/issues/1> from ablasdel/groovy-devel
+    updated catkin buildtool_depend
+  * updated catkin buildtool_depend
+
+ -- Chad Rockey <chadrockey@gmail.com>  Fri, 14 Dec 2012 08:00:00 -0000
+
+ros-indigo-depthimage-to-laserscan (1.0.0-0trusty) trusty; urgency=high
+
+  * Cleanup of the CMakeLists.txt
+  * First attempt at Catkinizing.
+  * Pushing fuerte-devel to github.
+  * Initial commit
+
+ -- Chad Rockey <chadrockey@gmail.com>  Wed, 05 Dec 2012 08:00:00 -0000
+
+
