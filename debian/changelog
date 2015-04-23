@@ -1,0 +1,74 @@
+ros-jade-depthimage-to-laserscan (1.0.7-0vivid) vivid; urgency=high
+
+  * Merge pull request #11 <https://github.com/ros-perception/depthimage_to_laserscan/issues/11> from ros-perception/hydro-devel
+    Update indigo devel with angle fix
+  * Merge pull request #8 <https://github.com/ros-perception/depthimage_to_laserscan/issues/8> from vliedel/hydro-devel
+    fixed angle_increment
+  * fixed angle_increment
+  * Merge pull request #7 <https://github.com/ros-perception/depthimage_to_laserscan/issues/7> from bulwahn/hydro-devel
+    check for CATKIN_ENABLE_TESTING
+  * check for CATKIN_ENABLE_TESTING
+  * Added ARCHIVE DESTINATION
+  * Contributors: Chad Rockey, Lukas Bulwahn, vliedel
+
+ -- Chad Rockey <chadrockey@gmail.com>  Mon, 16 Jun 2014 07:00:00 -0000
+
+ros-jade-depthimage-to-laserscan (1.0.6-0vivid) vivid; urgency=high
+
+  * Removed y component from projected beam radius.
+
+ -- Chad Rockey <chadrockey@gmail.com>  Thu, 31 Oct 2013 07:00:00 -0000
+
+ros-jade-depthimage-to-laserscan (1.0.5-0vivid) vivid; urgency=high
+
+  * No more Willow Garage email.
+  * Merge pull request #4 <https://github.com/ros-perception/depthimage_to_laserscan/issues/4> from ericperko/groovy-devel
+    Cleaned up CMakeLists a bit
+  * Cleaned up CMakeLists a bit
+
+ -- Chad Rockey <chadrockey@gmail.com>  Wed, 21 Aug 2013 07:00:00 -0000
+
+ros-jade-depthimage-to-laserscan (1.0.4-0vivid) vivid; urgency=high
+
+  * Update version to 1.0.4
+  * Merge pull request #3 <https://github.com/ros-perception/depthimage_to_laserscan/issues/3> from ahendrix/fix_testdeps
+    Fix testdeps
+  * Removed redundant test-depends.
+  * Remove old makefile.
+
+ -- Chad Rockey <chadrockey@gmail.com>  Tue, 22 Jan 2013 08:00:00 -0000
+
+ros-jade-depthimage-to-laserscan (1.0.3-0vivid) vivid; urgency=high
+
+  * fix exported libraries (fix #2 <https://github.com/ros-perception/depthimage_to_laserscan/issues/2>)
+
+ -- Chad Rockey <chadrockey@gmail.com>  Sun, 23 Dec 2012 08:00:00 -0000
+
+ros-jade-depthimage-to-laserscan (1.0.2-0vivid) vivid; urgency=high
+
+  * fix dyn reconf
+  * Updated description.
+  * Updated readme to link to wiki.
+
+ -- Chad Rockey <chadrockey@gmail.com>  Wed, 19 Dec 2012 08:00:00 -0000
+
+ros-jade-depthimage-to-laserscan (1.0.1-0vivid) vivid; urgency=high
+
+  * Update package.xml
+    New release for missing catkin build_depend.
+  * Merge pull request #1 <https://github.com/ros-perception/depthimage_to_laserscan/issues/1> from ablasdel/groovy-devel
+    updated catkin buildtool_depend
+  * updated catkin buildtool_depend
+
+ -- Chad Rockey <chadrockey@gmail.com>  Fri, 14 Dec 2012 08:00:00 -0000
+
+ros-jade-depthimage-to-laserscan (1.0.0-0vivid) vivid; urgency=high
+
+  * Cleanup of the CMakeLists.txt
+  * First attempt at Catkinizing.
+  * Pushing fuerte-devel to github.
+  * Initial commit
+
+ -- Chad Rockey <chadrockey@gmail.com>  Wed, 05 Dec 2012 08:00:00 -0000
+
+
