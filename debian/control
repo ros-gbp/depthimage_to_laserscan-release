@@ -1,0 +1,12 @@
+Source: ros-kinetic-depthimage-to-laserscan
+Section: misc
+Priority: extra
+Maintainer: Chad Rockey <chadrockey@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libgtest-dev, ros-kinetic-catkin (>= 0.5.68), ros-kinetic-dynamic-reconfigure, ros-kinetic-image-geometry, ros-kinetic-image-transport, ros-kinetic-nodelet, ros-kinetic-roscpp, ros-kinetic-sensor-msgs
+Homepage: http://ros.org/wiki/depthimage_to_laserscan
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-depthimage-to-laserscan
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-dynamic-reconfigure, ros-kinetic-image-geometry, ros-kinetic-image-transport, ros-kinetic-nodelet, ros-kinetic-roscpp, ros-kinetic-sensor-msgs
+Description: depthimage_to_laserscan
