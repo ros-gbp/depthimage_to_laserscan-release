@@ -1,3 +1,26 @@
+## depthimage_to_laserscan (kinetic) - 1.0.7-0
+
+The packages in the `depthimage_to_laserscan` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release -t kinetic -r kinetic depthimage_to_laserscan --new-track` on `Tue, 24 May 2016 01:55:43 -0000`
+
+The `depthimage_to_laserscan` package was released.
+
+Version of package(s) in repository `depthimage_to_laserscan`:
+
+- upstream repository: https://github.com/ros-perception/depthimage_to_laserscan.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.0.7-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.21`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.4`
+- rosdistro version: `0.4.7`
+- vcstools version: `0.1.38`
+
+
 ## depthimage_to_laserscan (jade) - 1.0.7-0
 
 The packages in the `depthimage_to_laserscan` repository were released into the `jade` distro by running `/usr/bin/bloom-release depthimage_to_laserscan --track jade --rosdistro jade --new-track` on `Thu, 23 Apr 2015 00:39:28 -0000`
