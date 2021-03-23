@@ -1,0 +1,12 @@
+Source: ros-noetic-depthimage-to-laserscan
+Section: misc
+Priority: optional
+Maintainer: Chad Rockey <chadrockey@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libgtest-dev, ros-noetic-catkin (>= 0.5.68), ros-noetic-dynamic-reconfigure, ros-noetic-image-geometry, ros-noetic-image-transport, ros-noetic-nodelet, ros-noetic-roscpp, ros-noetic-sensor-msgs
+Homepage: http://ros.org/wiki/depthimage_to_laserscan
+Standards-Version: 3.9.2
+
+Package: ros-noetic-depthimage-to-laserscan
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-dynamic-reconfigure, ros-noetic-image-geometry, ros-noetic-image-transport, ros-noetic-nodelet, ros-noetic-roscpp, ros-noetic-sensor-msgs
+Description: depthimage_to_laserscan
